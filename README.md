@@ -5,10 +5,13 @@ code and how to use the face verification project
 	-Create a conda environment with python 3.6
 	-Install pytorch 1.5.0 with cuda 10.1 (conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.1 -c pytorch)
 	-install scikit-learn = 0.24.2, sckit-image = 0.17.2, openCV-python = 4.5.2.52 through pip
-	
+
 # Directories
-	-Create a results directory, [download](https://drive.google.com/drive/folders/1_gn7Nf6OUKy5DtCsN1fZqubKKtggmpPb?usp=sharing) and put cur_epoch_test_result.mat inside 
-	-Download these [models](https://drive.google.com/drive/folders/1bV0orFqzf5QCu2hMz9QO51MC1-90SqrA?usp=sharing)
+download [.mat file](https://drive.google.com/drive/folders/1_gn7Nf6OUKy5DtCsN1fZqubKKtggmpPb?usp=sharing) 
+
+download the [models](https://drive.google.com/drive/folders/1bV0orFqzf5QCu2hMz9QO51MC1-90SqrA?usp=sharing)
+
+	-Create a results directory and put cur_epoch_test_result.mat inside 
 	-Create directiories to save and open the images and videos (eg: /data, /video, /result)
 	
 ## Config
