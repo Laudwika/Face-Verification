@@ -17,3 +17,4 @@ vid_config = 0
 vid_save_loc = 'data/zout/test.mp4'
 cur_subject = 's0'
 box_constant = 1.5
+time_to_verify = 2
