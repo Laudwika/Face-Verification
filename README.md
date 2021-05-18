@@ -36,7 +36,9 @@ Change the information in the config accordingly
 	
 ## How to use the classes
 initialize the class with the model type ('18' or '101')
+
 	fv = face_verifier(model_type)
+	
 ### Feature extractor
 	featureR = fv.image_feature_extractor(right_image_loc, right_face_loc)
 send the location image you want to extract feature and the location of where the output image will be
@@ -60,15 +62,19 @@ comment writer and cv2.imshow functions on line 610,611,612 in the face_verifica
 	
 #### if using single reference image
 get features
+
 	featureR = fv.image_feature_extractor(right_image_loc, right_face_loc)
+	
 set vid to 0 for live webcam or set the video location for pre recorded video
 send vid and feature into the video_verification module
+
 	fv.video_verification(vid = 0, featureRs = featureR)
 	
 #### if using from a preprocessed feature bank
 get the npy name (subject name, eg: s1, s2, s3, s4)
 set vid to 0 for live webcam or set the video location for pre recorded video
 send vid and subject name into the video_verification module
+
 	fv.video_verification(vid = 0, subject = cur_subject)
 
 ![test-min](https://user-images.githubusercontent.com/70614573/118594658-c32f1000-b7e4-11eb-96db-b9db38d23ab7.gif) 
