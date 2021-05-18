@@ -1,0 +1,25 @@
+certifi==2020.12.5
+cycler==0.10.0
+decorator==4.4.2
+imageio==2.9.0
+joblib==1.0.1
+kiwisolver==1.3.1
+matplotlib==3.3.4
+networkx==2.5.1
+numpy @ file:///D:/bld/numpy_1610324703282/work
+olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
+opencv-python==4.5.2.52
+Pillow @ file:///D:/bld/pillow_1617818275641/work
+pyparsing==2.4.7
+python-dateutil==2.8.1
+PyWavelets==1.1.1
+scikit-image==0.17.2
+scikit-learn==0.24.2
+scipy==1.5.4
+six==1.16.0
+threadpoolctl==2.1.0
+tifffile==2020.9.3
+torch==1.5.0
+torchvision==0.6.0
+tqdm==4.60.0
+wincertstore==0.2
