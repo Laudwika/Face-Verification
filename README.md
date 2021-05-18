@@ -7,9 +7,8 @@ code and how to use the face verification project
 	-install scikit-learn = 0.24.2, sckit-image = 0.17.2, openCV-python = 4.5.2.52 through pip
 	
 # Directories
-	-Create a results directory, download and put cur_epoch_test_result.mat inside 
-	 https://drive.google.com/drive/folders/1_gn7Nf6OUKy5DtCsN1fZqubKKtggmpPb?usp=sharing
-	-Download these models https://drive.google.com/drive/folders/1bV0orFqzf5QCu2hMz9QO51MC1-90SqrA?usp=sharing
+	-Create a results directory, [download](https://drive.google.com/drive/folders/1_gn7Nf6OUKy5DtCsN1fZqubKKtggmpPb?usp=sharing) and put cur_epoch_test_result.mat inside 
+	-Download these [models](https://drive.google.com/drive/folders/1bV0orFqzf5QCu2hMz9QO51MC1-90SqrA?usp=sharing)
 	-Create directiories to save and open the images and videos (eg: /data, /video, /result)
 	
 ## Config
