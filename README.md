@@ -54,8 +54,8 @@ comment writer and cv2.imshow functions on line 610,611,612 in the face_verifica
 
 	writer.write(self.img)
 	writer2.write(frame)
+	cv2.imshow('RetinaFace',self.img)
 	
-cv2.imshow('RetinaFace',self.img)
 #### if using single reference image
 get features
 	featureR = fv.image_feature_extractor(right_image_loc, right_face_loc)
