@@ -1,4 +1,4 @@
-# Face_verification
+# Face Verification Project
 code and how to use the face verification project
 
 ## Prerequisites
