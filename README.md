@@ -31,6 +31,8 @@ Change the information in the config accordingly
 	vid_config = 0                                              #video type, 0 for live input, otherwise input the video file location
 	vid_save_loc = 'data/zout/test.mp4'                         #video save location, ignore when in production
 	cur_subject = 's0'                                          #subject for when using presaved feature vectors
+	box_constant = 1.5					    #The constant used for validation box size (min 1.5)
+	time_to_verify = 2					    #How many detected frames passed to validate (recurring, if 25 then,frame 25, 50, 75, 100, etc)
 	
 ## How to use the classes
 initialize the class with the model type ('18' or '101')
