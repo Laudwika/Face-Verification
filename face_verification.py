@@ -27,7 +27,7 @@ import sklearn.metrics
 from sklearn.metrics.pairwise import cosine_similarity
 from align_faces import warp_and_crop_face, get_reference_facial_points
 from config import alignment_save, face_save_loc, model18, model101, mask_model, feature_path_loc, face_bank_loc, video_output
-from config import model_type, right_image_loc, right_face_loc, left_image_loc, left_face_loc, vid_config, vid_save_loc, cur_subject
+from config import model_type, right_image_loc, right_face_loc, left_image_loc, left_face_loc, vid_config, vid_save_loc, cur_subject, time_to_verify
 from utils import device, verify_box, resize_box, get_detections
 
 #-*- coding: utf-8 -*-
@@ -576,7 +576,7 @@ class face_verifier():
                     if label == 'Mask':
                         pass
                     else:
-                        if self.valface > 2:
+                        if self.valface > time_to_verify:
                             face = alignment_save
                             start_time = time.time()
                             self.featureLs = self.verify(face)
