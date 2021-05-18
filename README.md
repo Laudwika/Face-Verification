@@ -50,6 +50,12 @@ send the location image you want to extract feature and the location of where th
 	-input the score and a threshold (set to 0.4 for now) to get result ('SAME' or 'DIFFERENT')
 
 ### Video Verification
+comment writer and cv2.imshow functions on line 610,611,612 in the face_verification.py
+
+	writer.write(self.img)
+	writer2.write(frame)
+	
+cv2.imshow('RetinaFace',self.img)
 #### if using single reference image
 get features
 	featureR = fv.image_feature_extractor(right_image_loc, right_face_loc)
@@ -63,6 +69,7 @@ set vid to 0 for live webcam or set the video location for pre recorded video
 send vid and subject name into the video_verification module
 	fv.video_verification(vid = 0, subject = cur_subject)
 
+![test-min](https://user-images.githubusercontent.com/70614573/118594658-c32f1000-b7e4-11eb-96db-b9db38d23ab7.gif)
 
 
 
