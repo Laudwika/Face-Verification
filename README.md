@@ -69,7 +69,11 @@ set vid to 0 for live webcam or set the video location for pre recorded video
 send vid and subject name into the video_verification module
 	fv.video_verification(vid = 0, subject = cur_subject)
 
-![test-min](https://user-images.githubusercontent.com/70614573/118594658-c32f1000-b7e4-11eb-96db-b9db38d23ab7.gif)
+![test-min](https://user-images.githubusercontent.com/70614573/118594658-c32f1000-b7e4-11eb-96db-b9db38d23ab7.gif) 
+![test-1](https://user-images.githubusercontent.com/70614573/118595322-d2628d80-b7e5-11eb-9e73-5a3d9725a3f0.gif)
+
+
+
 
 
 
