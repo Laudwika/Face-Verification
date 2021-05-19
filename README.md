@@ -35,6 +35,9 @@ Change the information in the config accordingly
 	cur_subject = 's0'                                          #subject for when using presaved feature vectors
 	box_constant = 1.5					    #The constant used for validation box size (min 1.5)
 	time_to_verify = 2					    #How many detected frames passed to validate (recurring, if 25 then,frame 25, 50, 75, 100, etc)
+	con_threshold = 0.4                                         #The constant threshold used to verify the score
+	change_features = False                                     #Should the change feature phase be used or not
+	num_box_fail = 25                                           #How many times should verification fail before re anchoring
 	
 ## How to use the classes
 initialize the class with the model type ('18' or '101')
