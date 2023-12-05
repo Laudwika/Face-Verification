@@ -84,7 +84,7 @@ send vid and subject name into the video_verification module
 
 ![test-min](https://user-images.githubusercontent.com/70614573/118594658-c32f1000-b7e4-11eb-96db-b9db38d23ab7.gif) 
 ![test-1](https://user-images.githubusercontent.com/70614573/118595322-d2628d80-b7e5-11eb-9e73-5a3d9725a3f0.gif)
-![test-2-min](https://user-images.githubusercontent.com/70614573/118605035-cd570b80-b7f0-11eb-85f9-b0e035efadbe.gif)
+
 
 
 
